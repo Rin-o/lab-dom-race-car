@@ -19,22 +19,21 @@ body {
   display: none;
   align-content: center;
   padding: 20px 0px;
+  height: 200px;
+  width: 600px;
   overflow: hidden;
   position: relative;
-  background-image: url(../images/road.png);
+  background-image: url(../images/background.jpeg);
   background-size: cover;
   animation: slide 5s linear infinite;
 }
 
 @keyframes slide {
   0% {
-    background-position: 0 -1000px;
-  }
-  95% {
-    background-position: 0 0;
+    background-position: 0 50%;
   }
   100% {
-    background-position: 0 50px;
+    background-position: 150% 50%;
   }
 }
 

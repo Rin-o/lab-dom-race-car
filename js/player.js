@@ -9,7 +9,7 @@ class Player {
       this.directionY = 0
       this.element = document.createElement('img')
   
-      this.element.src = '../images/car.png'
+      this.element.src = '../images/shiba2.png'
   
       this.element.style.position = 'absolute'
       this.element.style.left = `${this.left}px`
